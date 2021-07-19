@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="all_colomn_height">205dp</dimen>
+    <dimen name="all_colomn_size">55dp</dimen>
+    <dimen name="total_scores">45dp</dimen>
+    <dimen name="logotip">125dp</dimen>
+    <dimen name="start_button">25dp</dimen>
+    <dimen name="button_height">35dp</dimen>
+
+    <dimen name="scoreboard">25dp</dimen>
+    <dimen name="scrore_right">22dp</dimen>
+    <dimen name="width_scores">81dp</dimen>
+    <dimen name="scores_board_height">110dp</dimen>
+    <dimen name="scores_title">18dp</dimen>
+    <dimen name="scores_text_margin_top">4dp</dimen>
+    <dimen name="bet_title_margin_top">8dp</dimen>
+    <dimen name="winner_line_height">52dp</dimen>
+    <dimen name="colomn_height">261dp</dimen>
+    <dimen name="colomn_margin">25dp</dimen>
+    <dimen name="colomn_padding">5dp</dimen>
+    <dimen name="button_margin">5dp</dimen>
+    <dimen name="total_score_size">15sp</dimen>
+</resources>

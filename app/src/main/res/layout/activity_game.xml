@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayActivity">
+
+    <ImageView
+        android:id="@+id/imagebacgraund"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/backgraund"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="@dimen/width_scores"
+        android:layout_height="@dimen/scores_board_height"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:background="@drawable/bg_scores"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/colomplay">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:paddingTop="@dimen/scores_text_margin_top"
+            android:text="@string/ochki"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/scores_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/totalscores"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/scores_text_margin_top"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="@dimen/total_score_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/bet_title_margin_top"
+
+            android:text="@string/betScores"
+
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/scores_title"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/totalbet"
+            android:text="10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/scores_text_margin_top"
+            android:textColor="@android:color/holo_red_light"
+            android:textSize="@dimen/total_score_size"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="@dimen/winner_line_height"
+        android:background="@drawable/bg_scores"
+        app:layout_constraintBottom_toBottomOf="@id/colomplay"
+        app:layout_constraintLeft_toLeftOf="@id/colomplay"
+        app:layout_constraintRight_toRightOf="@id/colomplay"
+        app:layout_constraintTop_toTopOf="@id/colomplay" />
+
+    <bar.gentylove.sweetmeet.ColonsAllShow
+        android:id="@+id/colomplay"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/colomn_height"
+        android:layout_marginTop="@dimen/colomn_margin"
+        android:background="@drawable/bg_scores"
+        android:orientation="horizontal"
+        android:padding="@dimen/colomn_padding"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <bar.gentylove.sweetmeet.ColonsShow
+            android:id="@+id/firstcolomn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" />
+
+        <bar.gentylove.sweetmeet.ColonsShow
+            android:id="@+id/secondcolomn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" />
+
+        <bar.gentylove.sweetmeet.ColonsShow
+            android:id="@+id/threecolomn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" />
+
+        <bar.gentylove.sweetmeet.ColonsShow
+            android:id="@+id/fourcolomn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" />
+
+        <bar.gentylove.sweetmeet.ColonsShow
+            android:id="@+id/fivecolomn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scrollbars="none" />
+    </bar.gentylove.sweetmeet.ColonsAllShow>
+
+
+    <Button
+        android:id="@+id/button_crutit"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="@dimen/button_margin"
+
+        android:text="@string/krutit"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

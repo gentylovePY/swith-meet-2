@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "920756564846",
+    "project_id": "lord-of-pin-up-history",
+    "storage_bucket": "lord-of-pin-up-history.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920756564846:android:d61c47bfca6c73a1a7877f",
+        "android_client_info": {
+          "package_name": "bar.gentylove.sweetmeet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920756564846-cpv3faki79o4k97ve1os82onqnf23oa4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyJMFJ_lYb-LtFqZJtYaU2dz8VDrCBm-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920756564846-cpv3faki79o4k97ve1os82onqnf23oa4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_MainName">Lord of Pin Up history</string>
+    <string name="FaceBook_id_app">900967870725931</string>
+
+
+
+
+    <string name="ochki">Очки</string>
+    <string name="betScores">Cтавка</string>
+    <string name="stravka">Ставка</string>
+    <string name="krutit">Play</string>
+</resources>
